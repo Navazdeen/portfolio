@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Image from 'next/image';
 
 interface IHeroProps {
 }
@@ -14,7 +15,7 @@ const Hero: React.FunctionComponent<IHeroProps> = (props) => {
                     <div className='text-lg text-white font-medium font-sans bg-gradient-to-r from-blue-800/60 to-cyan-400/80 w-fit px-8 py-2 cursor-pointer'>My Projects</div>
                 </div>
                 <div className='flex'>
-                    <img src="./profile.jpg" alt="" className='object-cover w-full max-w-fit h-96' />
+                    <Image src="./profile.jpg" alt="" className='object-cover w-full max-w-fit h-96' />
                 </div>
             </div>
         </div>

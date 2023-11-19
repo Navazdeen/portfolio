@@ -24,8 +24,8 @@ const data: Dictionary = {
         value: 4
     },
     {
-        skill: 'Big Data(Spark)',
-        value: 2.3
+        skill: 'Big Data(PySpark) & Azure',
+        value: 3.8
     }],
     "Machine Learning": [{
         skill: 'Python',
@@ -37,7 +37,7 @@ const data: Dictionary = {
     },
     {
         skill: 'Computer Vision',
-        value: 2.8
+        value: 3.2
     }],
     "Data Analytics": [{
         skill: 'Statistical Methods',
