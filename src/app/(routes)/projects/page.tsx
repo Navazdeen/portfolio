@@ -17,7 +17,7 @@ export default function Projects() {
       try {
         const response = await fetch('https://api.github.com/user/repos', {
           headers: {
-            Authorization: `Bearer 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`,
+            Authorization: `Bearer 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`,
           },
         });
 
