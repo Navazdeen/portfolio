@@ -13,7 +13,6 @@ interface Repo {
 export default function Projects() {
   const [repos, setRepos] = useState<Repo[]>([]);
 
-  console.log(process.env.NEXT_PUBLIC_GITHUB_TOKEN)
   useEffect(() => {
     const fetchRepos = async () => {
       try {
