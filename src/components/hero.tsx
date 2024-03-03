@@ -7,7 +7,7 @@ interface IHeroProps {
 
 const Hero: React.FunctionComponent<IHeroProps> = (props) => {
     return (
-        <div className='flex place-content-center mt-4 h-screen place-items-center bg-slate-200/20'>
+        <div className='flex place-content-center mt-20 place-items-center bg-slate-200/20'>
             <div className='flex w-5/6 justify-between'>
                 <div className='flex flex-col space-y-4 self-center'>
                     <p className='font-medium text-lg'>I am</p>
